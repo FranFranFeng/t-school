@@ -9,19 +9,14 @@ import Top from './Top.vue';
       role="main"
   >
     <div
-        class="flex flex-wrap gap-5 justify-between px-5 py-px w-full text-4xl whitespace-nowrap text-slate-400 max-md:pr-5 max-md:max-w-full"
+        class="flex flex-wrap gap-5 justify-between px-5 py-px w-full whitespace-nowrap text-slate-400 max-md:pr-5 max-md:max-w-full"
     >
     </div>
     <div
-        class="flex flex-col items-start self-center mt-14 w-full text-5xl text-black max-w-[1064px] max-md:mt-10 max-md:max-w-full max-md:text-4xl"
+        class="flex flex-col items-start self-center mt-14 w-full  text-black max-w-[1064px] max-md:mt-10 max-md:max-w-full max-md:text-4xl"
     >
-      <div class="flex flex-wrap gap-3.5 whitespace-nowrap max-md:text-4xl">
-        <div
-            class="flex shrink-0 bg-blue-900 h-[65px] w-[9px]"
-            role="presentation"
-            aria-hidden="true"
-        ></div>
-        <h1 class="flex-auto self-start max-md:max-w-full max-md:text-4xl font-bold">
+      <div class="flex flex-wrap gap-3.5 whitespace-nowrap">
+        <h1 class="flex-auto self-start max-md:max-w-full text-3xl font-bold border-l-8 border-blue-900  pl-2 py-1">
           數實學生常被詢問的問題
         </h1>
       </div>
@@ -30,32 +25,20 @@ import Top from './Top.vue';
           role="region"
           aria-label="FAQ Questions and Answers"
       >
-        <h2 class="text-4xl font-bold">Q:高中畢業後怎麼升學？</h2>
-        <p class="mt-4">
-          A:在數位實驗高中的學習過程中，不斷讓學生探索未來志向，並且學生可以依據自己的志向安排學習。若想往台灣的大學升學有
-          <span class="font-bold">特殊選材、申請入學、分發入學</span>
-          三種，學校非常支持特殊選材管道，有許多針對特殊選材的課程，對於申請入學及分發入學，學校都有完善的學習資源及課程，沒有缺少資源的疑慮。包括申請國外大學，只要學生有意願學校都能幫忙，但最重要的是學生需要有為自己學系負責的能力。
+        <h2 class="text-2xl font-bold">Q: 高中畢業後怎麼升學？</h2>
+        <p class="mt-4 text-2xl">
+          A: 在數位實驗高中的學習過程中，不斷讓學生探索未來志向，並且學生可以依據自己的志向安排學習。若想往台灣的大學升學有 特殊選材、申請入學、分發入學三種，學校非常支持特殊選材管道，有許多針對特殊選材的課程，對於申請入學及分發入學，學校都有完善的學習資源及課程，沒有缺少資源的疑慮。包括申請國外大學，只要學生有意願學校都能幫忙，但最重要的是學生需要有為自己學系負責的能力。
         </p>
 
-        <h2 class="mt-8 text-4xl font-bold">Q:有校排嗎？有繁星嗎？</h2>
-        <p class="mt-4">
-          A:因為數位實驗高中的「一生一課表」制度，每位學生所選修的課程皆不相同，無法以相同標準評比學生成績，因此
-          <span class="font-bold">沒有校排成績，也無法使用繁星管道升學</span>。
+        <h2 class="mt-8 text-2xl font-bold">Q: 有校排嗎？有繁星嗎？</h2>
+        <p class="mt-4 text-2xl">
+          A: 因為數位實驗高中的「一生一課表」制度，每位學生所選修的課程皆不相同，無法以相同標準評比學生成績，因此沒有校排成績，也無法使用繁星管道升學。
         </p>
 
-        <h2 class="mt-8 text-4xl font-bold">Q:會照著課綱上課嗎？會使用課本上課嗎？</h2>
-        <p class="mt-4">
-          A:學科選修課程的課程規劃皆為
-          <span class="font-bold">任課教師自行規劃</span>
-          ，並無特殊規定是否需要按照課綱，但在課程結束一定會上完課綱內所有內容，無特殊補習加強之必要，現今狀況約一半教師使用108課綱與課本，其餘為自編課程進度，自行製作講義及撤資源。
+        <h2 class="mt-8 text-2xl font-bold">Q: 會照著課綱上課嗎？會使用課本上課嗎？</h2>
+        <p class="mt-4 text-2xl">
+          A: 學科選修課程的課程規劃皆為任課教師自行規劃 ，並無特殊規定是否需要按照課綱，但在課程結束一定會上完課綱內所有內容，無特殊補習加強之必要，現今狀況約一半教師使用108課綱與課本，其餘為自編課程進度，自行製作講義及撤資源。
         </p>
-      </div>
-      <div
-          class="mt-24 max-md:mt-10 max-md:ml-2.5 max-md:text-4xl"
-          role="status"
-          aria-live="polite"
-      >
-        持續更新中...
       </div>
     </div>
   </div>
