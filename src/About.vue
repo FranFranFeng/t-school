@@ -6,29 +6,26 @@ import Top from './Top.vue';
   <top/>
   <div class="flex overflow-hidden flex-col" role="main">
     <section class="flex flex-col items-start self-center mt-14 w-full max-w-[1001px] max-md:mt-10 max-md:max-w-full">
-      <div class="flex gap-3.5 text-5xl font-bold text-black whitespace-nowrap max-md:text-4xl">
-        <div class="flex shrink-0 bg-blue-900 h-[65px] w-[9px]" aria-hidden="true"></div>
-        <h1 class="flex-auto self-start max-md:text-4xl">關於這個網站:D</h1>
+      <div class="flex gap-3.5  font-bold text-black whitespace-nowrap max-md:text-4xl">
+        <h1 class="flex-auto self-start text-3xl border-l-8 border-blue-900  pl-2 py-1">關於這個網站:D</h1>
       </div>
-      <p class="self-stretch mt-8 text-4xl text-black max-md:max-w-full">
+      <p class="self-stretch mt-8 text-2xl text-black max-md:max-w-full">
         這個網站是數位實驗高中網頁程式設計小組的成品‼️😁👍
       </p>
-      <div class="flex gap-3.5 mt-10 text-5xl font-bold text-black whitespace-nowrap max-md:mt-10 max-md:text-4xl">
-        <div class="flex shrink-0 bg-blue-900 h-[65px] w-[9px]" aria-hidden="true"></div>
-        <h2 class="flex-auto self-start max-md:text-4xl">聯絡我們(的學校)</h2>
+      <div class="flex gap-3.5 mt-10  font-bold text-black whitespace-nowrap max-md:mt-10 max-md:text-4xl">
+        <h2 class="flex-auto self-start text-3xl border-l-8 border-blue-900  pl-2 py-1">聯絡我們(的學校)</h2>
       </div>
-      <div class="mt-8 text-4xl text-black max-md:max-w-full">
-        <p><span class="font-bold">電子信箱</span>📪:tschool@tschool.tp.edu.tw</p>
-        <p><span class="font-bold">LINE ID</span>💬:@218tmfyu</p>
-        <p><span class="font-bold">教務處</span>☎️:02-23717001-分機21或22</p>
-        <p><span class="font-bold">吉林</span>辦公室☎️:02-25625101</p>
-        <p><span class="font-bold">弘道</span>基地🗺️:100台北市中正區公園路21號(弘道國中內)</p>
-        <p><span class="font-bold">吉林</span>基地🗺️:104台北市中山區吉林路110號</p>
+      <div class="mt-8 text-2xl text-black max-md:max-w-full">
+        <p><span class="font-bold">電子信箱</span>📪: tschool@tschool.tp.edu.tw</p>
+        <p><span class="font-bold">LINE ID</span>💬: @218tmfyu</p>
+        <p><span class="font-bold">教務處</span>☎️: 02-23717001-分機21或22</p>
+        <p><span class="font-bold">吉林</span>辦公室☎️: 02-25625101</p>
+        <p><span class="font-bold">弘道</span>基地🗺️: 100台北市中正區公園路21號(弘道國中內)</p>
+        <p><span class="font-bold">吉林</span>基地🗺️: 104台北市中山區吉林路110號</p>
       </div>
       <div
-          class="flex gap-3.5 mt-14 text-5xl font-bold text-black whitespace-nowrap max-md:mt-10 max-md:ml-0.5 max-md:text-4xl">
-        <div class="flex shrink-0 bg-blue-900 h-[65px] w-[9px]" aria-hidden="true"></div>
-        <h2 class="flex-auto self-start max-md:text-4xl">學校社群媒體連結</h2>
+          class="flex gap-3.5 mt-14  font-bold text-black whitespace-nowrap max-md:mt-10 max-md:ml-0.5 max-md:text-4xl">
+        <h2 class="flex-auto self-start text-3xl  border-l-8 border-blue-900  pl-2 py-1">學校社群媒體連結</h2>
       </div>
       <div class="flex mt-4 ml-6 max-md:ml-2.5">
         <a href=https://www.youtube.com/@tschool111 target="_blank">

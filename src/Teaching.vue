@@ -14,9 +14,8 @@ import Top from './Top.vue';
       <div
           class="flex flex-wrap self-start whitespace-nowrap max-md:pr-5"
       >
-        <div class="flex shrink-0 bg-blue-900 h-[65px] w-[9px]" aria-hidden="true"></div>
-        <div class="self-start mr-0 max-md:max-w-full text-4xl font-bold ">
-          「廣闊探索，天賦自由」
+        <div class="self-start mr-0 max-md:max-w-full text-4xl font-bold  border-l-8 border-blue-900  pl-2 py-1">
+          廣闊探索，天賦自由
         </div>
       </div>
       <div class="mt-7 text-2xl max-md:max-w-full">
@@ -24,15 +23,13 @@ import Top from './Top.vue';
         自我發展 、文化社會、 學科知識 、個別需求、 畢業專題 ，培養學生的6C核心能力（創意、協作、批判思考、公民素養、溝通、品格）。<br/>
       </div>
       <div class="flex gap-3.5 self-start whitespace-nowrap py-10">
-        <div class="flex shrink-0 bg-blue-900 h-[65px] w-[9px]" aria-hidden="true"></div>
-        <div class="self-start basis-auto text-4xl font-bold">個人化學習</div>
+        <div class="self-start basis-auto text-4xl font-bold border-l-8 border-blue-900  pl-2 py-1">個人化學習</div>
       </div>
       <div class="text-2xl max-md:max-w-full">
         數位實驗高中以幫助學生探索自我、發展能力，並且成為具備學習力、影響力、移動力的世界公民為主要教學目標，發掘每一位學生的學習潛力與天賦才能，促進個人自我實現及社會共榮。<br/>
       </div>
       <div class="flex gap-3.5 self-start whitespace-nowrap py-10">
-        <div class="flex shrink-0 bg-blue-900 h-[65px] w-[9px]" aria-hidden="true"></div>
-        <div class="self-start basis-auto text-4xl font-bold">數位學習</div>
+        <div class="self-start basis-auto text-4xl font-bold border-l-8 border-blue-900  pl-2 py-1">數位學習</div>
       </div>
       <div class="text-2xl max-md:max-w-full">
         數位實驗高中並不會限制使用電子產品，反而希望學生多多使用數位工具。我們鮮少使用紙本講義和功課，大多數時間是用電子產品完成任務，培養學生現代科技技術，打造彈性多元的學習模式，以促進自我實現。
